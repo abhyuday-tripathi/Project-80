@@ -1,0 +1,49 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: #4776e6;
+  background: -webkit-linear-gradient(to right, #8e54e9, #4776e6);
+  background: linear-gradient(to right, #8e54e9, #4776e6);
+  min-height: 95vh;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.one {
+  margin-right: 30px;
+  margin-left: 20px;
+  margin-top: 50px;
+  float: left;
+}
+
+.two {
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-top: 50px;
+  float: right;
+}
+
+input {
+  transition: all 0.4s ease;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #273159;
+  font-size: 20px;
+  background: transparent;
+  color: white;
+}
+
+input::placeholder {
+  transition: all 0.4s ease;
+  color: white;
+}
+
+#showParaOne,
+#showParaTwo {
+  font-size: 50px;
+}
